@@ -1,0 +1,164 @@
+body, html, .main {
+    height: 100%;
+}
+.navbar {
+  background-color: #f5f53b;
+}
+.navbar .navbar-brand {
+  color: #000000;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+  font-weight:bold;
+  text-align: center;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: #2e2d2f;
+}
+.navbar .navbar-text {
+  color: #000000;
+}
+.navbar .navbar-text a {
+  color: #2e2d2f;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: #2e2d2f; 
+}
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  border-radius: .25rem;
+  margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: #2e2d2f;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: #2e2d2f;
+  background-color: #f5f53b;
+}
+.navbar .navbar-toggle {
+  border-color: #f5f53b;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+  background-color: #f5f53b;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+  color: #000000;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: #000000;
+}
+.navbar .navbar-link {
+  color: #000000;
+  font-family: "Comic Sans MS";
+}
+.navbar .navbar-link:hover {
+  color: #2e2d2f;
+}
+
+a{
+	text-decoration: none;
+}
+.carousel-caption{
+	position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: Helvetica;
+}
+
+.carousel-caption .quote{
+	position: absolute;
+	font-family: Helvetica;
+    top: 25px;
+    left:10px;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.carousel-caption .num{
+	position: absolute;
+	font-family: Helvetica;
+	color: #f5f53b;
+    top: 80px;
+    font-size:35px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.carousel-caption .service-tag{
+	position:absolute;
+	font-family: Courier New;
+    top: 50px;
+    font-weight:bold;
+    left:300px;
+    font-size:35px;
+    height: 100%;
+}
+
+
+.carousel-caption .service{	
+	font-family: Times New Roman;
+	font-size:14px;
+	align-items: center;
+}
+
+
+ .parallax {
+ 	
+    background-image: url("../images/wood.jpg");
+
+    min-height: 500px; 
+
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+.parallax .topic{
+	color:#DAC708; 
+	font-size:50px;
+	font-weight:bold;
+	font-family: Courier New;
+	text-align:center; 
+}
+
+.parallax .description{
+    color:#ffffff;    
+	font-size:20px;
+	font-weight:bold;
+	font-family: cursive;
+	text-align:center; 
+	top: 100px;
+}
+
+
+.carousel-caption .contact-tag{
+	position:absolute;
+	font-family: Courier New;
+    top: 50px;
+    color:#5499C7;
+    font-weight:bold;
+    left:300px;
+    font-size:35px;
+    height: 100%;
+}
+
+.carousel-caption .contact{	
+	font-family: Courier New;
+}

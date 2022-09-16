@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Futsal Management System</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles template -->
+    <link href="../css/blog-home.css" rel="stylesheet">
+
+</head>
+<body>
+<!-- Sidebar Widgets Column -->
+            
+<!-- Search Widget -->
+<div class="card my-4">
+  <div border="1">  
+    <form action="../pages/search_team.php" method="post" >
+      <h5 class="card-header">Search Teams</h5>
+      <div class="card-body">
+        <div class="input-group">
+          <input type="text" class="form-control" name="team" placeholder="Team name">
+          <span class="input-group-btn"> 
+          <button type="submit" name="submit" class="btn btn-secondary" type="button">Search</button>
+          </span> 
+        </div>
+      </div>
+    </form>
+    <form action="../pages/search_venue.php" method="post">
+      <div class="card-body">
+        <div class="input-group">
+          <input type="text" class="form-control" name="s_venue" placeholder="Preferred venue">
+          <span class="input-group-btn">
+            <button type="submit" name="submit" class="btn btn-secondary" type="button">Search</button>
+          </span>
+        </div>
+      </div>
+    </form>
+    <form action="../pages/search_time.php" method="post">
+      <div class="card-body">
+        <div class="input-group">
+          <div class="form-row">
+            <div class="col">
+              <label>From</label>
+              <input type="time" class="form-control" name="start_time" placeholder="From">
+            </div>
+            <div class="col">
+              <label>To</label>
+              <input type="time" class="form-control" name="end_time" placeholder="To">
+            </div>
+          </div>
+        </div>
+      </div>
+
+          <div style="text-align: center;" >
+          <!-- <span class="input-group-btn"> -->
+            <button type="submit" name="submit" class="btn btn-secondary" type="button">Search</button>
+          <!-- </span> -->
+          </div>
+    </form>
+  </div>
+  <div
+  <form action="../pages/search_futsal" method="post">
+      <h5 class="card-header">Search Futsal</h5>
+      <div class="card-body">
+        <div class="input-group">
+          <input type="text" class="form-control" name="futsal" placeholder="Team name">
+          <span class="input-group-btn"> 
+          <button type="submit" name="submit" class="btn btn-secondary" type="button">Search</button>
+          </span> 
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Categories Widget -->
+<!-- <div class="card my-4">
+  <h5 class="card-header">Popular sites</h5>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-lg-6">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a target="_blank" href="https://www.facebook.com/">FaceBook</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/">Instagram</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://github.com/">GitHub</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a target="_blank" href="https://www.coursera.org/">Coursera</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.w3schools.com">W3Schools</a>
+          </li>
+          <li>
+            <a target="_blank" href="https://stackoverflow.com/">Stack Overflow</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+ -->
+         
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
+
